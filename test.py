@@ -289,7 +289,6 @@ def run_k_episodes(num_episodes, episode, model, phase, env, gamma, epsilon, kin
                                                                                 epsilon, kinematic, device)
 
         #rewardFile = open("reward_Data.txt",'a')
-        #rewardFile.write("Episode: ",episode,"\n")
         #rewardFile.write(reward_sequences,"\n")
         #rewardFile.close()
         #print(_," ",reward_sequences.)
@@ -366,6 +365,50 @@ def train(model, memory, model_config, env_config, device, weight_file):
 
     return model
 
+def test(model, memory, model_config, env_config, device, weight_file):
+    gamma = model_config.getfloat('model', 'gamma')
+    batch_size = model_config.getint('train', 'batch_size')
+    learning_rate = model_config.getfloat('train', 'learning_rate')
+    step_size = model_config.getint('train', 'step_size')
+    train_episodes = model_config.getint('train', 'train_episodes')
+    sample_episodes = model_config.getint('train', 'sample_episodes')
+    test_interval = model_config.getint('train', 'test_interval')
+    test_episodes = model_config.getint('train', 'test_episodes')
+    epsilon_start = model_config.getfloat('train', 'epsilon_start')
+    epsilon_end = model_config.getfloat('train', 'epsilon_end')
+    epsilon_decay = model_config.getfloat('train', 'epsilon_decay')
+    num_epochs = model_config.getint('train', 'num_epochs')
+    kinematic = env_config.getboolean('agent', 'kinematic')
+    checkpoint_interval = model_config.getint('train', 'checkpoint_interval')
+
+    criterion = nn.MSELoss().to(device)
+    data_loader = DataLoader(memory, batch_size, shuffle=True)
+    optimizer = optim.SGD(model.parameters(), lr=learning_rate, momentum=0.9)
+    lr_scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=step_size, gamma=0.1)
+    train_env = ENV(config=env_config, phase='train')
+    test_env = ENV(config=env_config, phase='test')
+    duplicate_model = copy.deepcopy(model)
+
+    episode = 0
+    while episode < 3:
+        # epsilon-greedy
+        print("Episode: ",episode)
+        if episode < epsilon_decay:
+            epsilon = epsilon_start + (epsilon_end - epsilon_start) / epsilon_decay * episode
+        else:
+            epsilon = epsilon_end
+
+        # test
+        
+        run_k_episodes(test_episodes, episode, model, 'test', test_env, gamma, epsilon,
+                           kinematic, None, None, device)
+            # update duplicate model
+        duplicate_model = copy.deepcopy(model)
+
+        # sample k episodes into memory and optimize over the generated memory        
+    episode = episode+1
+    return model
+
 
 def main():
     parser = argparse.ArgumentParser('Parse configuration file')
@@ -386,7 +429,7 @@ def main():
         print('Output folder already exists')
     else:
         os.mkdir(output_dir)
-    log_file = os.path.join(output_dir, 'output.log')
+    log_file = os.path.join(output_dir, 'output_test.log')
     shutil.copy(args.config, output_dir)
     initialized_weights = os.path.join(output_dir, 'initialized_model.pth')    
     trained_weights = os.path.join(output_dir, 'trained_model.pth')
@@ -423,9 +466,10 @@ def main():
         logging.info('Finish initializing model. Model saved')
 
     # train the model
-    train(model, memory, model_config, env_config, device, trained_weights)
-    torch.save(model.state_dict(), trained_weights)
-    logging.info('Finish initializing model. Model saved')
+    #train(model, memory, model_config, env_config, device, trained_weights)
+    #torch.save(model.state_dict(), trained_weights)
+    #logging.info('Finish initializing model. Model saved')
+    test(model, memory, model_config, env_config, device, trained_weights)
 
 
 if __name__ == '__main__':
