@@ -390,7 +390,7 @@ def test(model, memory, model_config, env_config, device, weight_file):
     duplicate_model = copy.deepcopy(model)
 
     episode = 0
-    while episode < 3:
+    while episode < 20:
         # epsilon-greedy
         print("Episode: ",episode)
         if episode < epsilon_decay:

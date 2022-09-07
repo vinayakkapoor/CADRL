@@ -5,10 +5,14 @@ success_rate = []
 failure_rate = []
 
 path = sys.argv[1]
+find_in_line = "train in "
+
+if "test" in path:
+    find_in_line = "test in "
 
 with open(path,"r") as f:
     for line in f.readlines():
-        if "train in " in line:            
+        if find_in_line in line:            
             success_rate.append(float(line[line.index("success")+14:line.index("failure")-2]))
             failure_rate.append(float(line[line.index("failure")+14:line.index("average")-2]))        
 
