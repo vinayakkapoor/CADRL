@@ -406,7 +406,7 @@ def test(model, memory, model_config, env_config, device, weight_file):
         duplicate_model = copy.deepcopy(model)
 
         # sample k episodes into memory and optimize over the generated memory        
-    episode = episode+1
+        episode = episode+1
     return model
 
 
