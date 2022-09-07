@@ -1,17 +1,26 @@
 import matplotlib.pyplot as plt
+import sys
+
 success_rate = []
 failure_rate = []
-with open('./plot/plot_model_4.log') as f:
+
+path = sys.argv[1]
+
+with open(path,"r") as f:
     for line in f.readlines():
-        if "test" in line:
-            continue
-        success_rate.append(float(line[line.index("success")+14:line.index("failure")-2]))
-        failure_rate.append(float(line[line.index("failure")+14:line.index("average")-2]))        
+        if "train in " in line:            
+            success_rate.append(float(line[line.index("success")+14:line.index("failure")-2]))
+            failure_rate.append(float(line[line.index("failure")+14:line.index("average")-2]))        
+
 episodes = range(1,len(success_rate)+1)
 
-plt.plot(episodes,success_rate)
+plt.plot(episodes,success_rate,label='Success rate')
+plt.plot(episodes,failure_rate, label='Failure rate')
+plt.xlabel("Episodes")
+plt.ylabel("Probability")
 plt.ylim([0,1])
-plt.plot(episodes,failure_rate)
+
+plt.legend(loc='best')
 plt.show()
 
 #print(success_rate)
