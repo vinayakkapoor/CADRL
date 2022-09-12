@@ -1,0 +1,455 @@
+2022-09-09 17:33:26, INFO: Using device: cuda:0
+2022-09-09 17:33:31, INFO: Total number of state_value pairs: 40000
+2022-09-09 17:33:31, INFO: Loss in epoch 0: 6.29
+2022-09-09 17:33:32, INFO: Loss in epoch 1: 2.50
+2022-09-09 17:33:32, INFO: Loss in epoch 2: 2.34
+2022-09-09 17:33:33, INFO: Loss in epoch 3: 2.26
+2022-09-09 17:33:33, INFO: Loss in epoch 4: 2.20
+2022-09-09 17:33:34, INFO: Loss in epoch 5: 2.15
+2022-09-09 17:33:34, INFO: Loss in epoch 6: 2.11
+2022-09-09 17:33:35, INFO: Loss in epoch 7: 2.08
+2022-09-09 17:33:35, INFO: Loss in epoch 8: 2.05
+2022-09-09 17:33:36, INFO: Loss in epoch 9: 2.02
+2022-09-09 17:33:36, INFO: Loss in epoch 10: 2.00
+2022-09-09 17:33:37, INFO: Loss in epoch 11: 1.97
+2022-09-09 17:33:37, INFO: Loss in epoch 12: 1.96
+2022-09-09 17:33:38, INFO: Loss in epoch 13: 1.93
+2022-09-09 17:33:38, INFO: Loss in epoch 14: 1.92
+2022-09-09 17:33:39, INFO: Loss in epoch 15: 1.91
+2022-09-09 17:33:39, INFO: Loss in epoch 16: 1.89
+2022-09-09 17:33:40, INFO: Loss in epoch 17: 1.87
+2022-09-09 17:33:40, INFO: Loss in epoch 18: 1.87
+2022-09-09 17:33:41, INFO: Loss in epoch 19: 1.86
+2022-09-09 17:33:42, INFO: Loss in epoch 20: 1.85
+2022-09-09 17:33:42, INFO: Loss in epoch 21: 1.84
+2022-09-09 17:33:43, INFO: Loss in epoch 22: 1.83
+2022-09-09 17:33:43, INFO: Loss in epoch 23: 1.82
+2022-09-09 17:33:44, INFO: Loss in epoch 24: 1.82
+2022-09-09 17:33:44, INFO: Loss in epoch 25: 1.81
+2022-09-09 17:33:45, INFO: Loss in epoch 26: 1.81
+2022-09-09 17:33:45, INFO: Loss in epoch 27: 1.80
+2022-09-09 17:33:46, INFO: Loss in epoch 28: 1.80
+2022-09-09 17:33:46, INFO: Loss in epoch 29: 1.79
+2022-09-09 17:33:47, INFO: Loss in epoch 30: 1.78
+2022-09-09 17:33:47, INFO: Loss in epoch 31: 1.78
+2022-09-09 17:33:48, INFO: Loss in epoch 32: 1.78
+2022-09-09 17:33:48, INFO: Loss in epoch 33: 1.77
+2022-09-09 17:33:49, INFO: Loss in epoch 34: 1.77
+2022-09-09 17:33:49, INFO: Loss in epoch 35: 1.77
+2022-09-09 17:33:50, INFO: Loss in epoch 36: 1.76
+2022-09-09 17:33:50, INFO: Loss in epoch 37: 1.76
+2022-09-09 17:33:51, INFO: Loss in epoch 38: 1.76
+2022-09-09 17:33:51, INFO: Loss in epoch 39: 1.75
+2022-09-09 17:33:52, INFO: Loss in epoch 40: 1.75
+2022-09-09 17:33:52, INFO: Loss in epoch 41: 1.75
+2022-09-09 17:33:53, INFO: Loss in epoch 42: 1.75
+2022-09-09 17:33:53, INFO: Loss in epoch 43: 1.76
+2022-09-09 17:33:54, INFO: Loss in epoch 44: 1.74
+2022-09-09 17:33:54, INFO: Loss in epoch 45: 1.73
+2022-09-09 17:33:55, INFO: Loss in epoch 46: 1.73
+2022-09-09 17:33:56, INFO: Loss in epoch 47: 1.73
+2022-09-09 17:33:56, INFO: Loss in epoch 48: 1.73
+2022-09-09 17:33:57, INFO: Loss in epoch 49: 1.73
+2022-09-09 17:33:57, INFO: Loss in epoch 50: 1.72
+2022-09-09 17:33:58, INFO: Loss in epoch 51: 1.73
+2022-09-09 17:33:58, INFO: Loss in epoch 52: 1.72
+2022-09-09 17:33:59, INFO: Loss in epoch 53: 1.73
+2022-09-09 17:33:59, INFO: Loss in epoch 54: 1.71
+2022-09-09 17:34:00, INFO: Loss in epoch 55: 1.72
+2022-09-09 17:34:00, INFO: Loss in epoch 56: 1.71
+2022-09-09 17:34:01, INFO: Loss in epoch 57: 1.71
+2022-09-09 17:34:01, INFO: Loss in epoch 58: 1.71
+2022-09-09 17:34:02, INFO: Loss in epoch 59: 1.70
+2022-09-09 17:34:02, INFO: Loss in epoch 60: 1.70
+2022-09-09 17:34:03, INFO: Loss in epoch 61: 1.71
+2022-09-09 17:34:03, INFO: Loss in epoch 62: 1.70
+2022-09-09 17:34:04, INFO: Loss in epoch 63: 1.69
+2022-09-09 17:34:05, INFO: Loss in epoch 64: 1.70
+2022-09-09 17:34:05, INFO: Loss in epoch 65: 1.70
+2022-09-09 17:34:06, INFO: Loss in epoch 66: 1.70
+2022-09-09 17:34:06, INFO: Loss in epoch 67: 1.70
+2022-09-09 17:34:07, INFO: Loss in epoch 68: 1.70
+2022-09-09 17:34:07, INFO: Loss in epoch 69: 1.69
+2022-09-09 17:34:08, INFO: Loss in epoch 70: 1.69
+2022-09-09 17:34:08, INFO: Loss in epoch 71: 1.69
+2022-09-09 17:34:09, INFO: Loss in epoch 72: 1.70
+2022-09-09 17:34:09, INFO: Loss in epoch 73: 1.70
+2022-09-09 17:34:10, INFO: Loss in epoch 74: 1.69
+2022-09-09 17:34:11, INFO: Loss in epoch 75: 1.69
+2022-09-09 17:34:11, INFO: Loss in epoch 76: 1.68
+2022-09-09 17:34:12, INFO: Loss in epoch 77: 1.69
+2022-09-09 17:34:12, INFO: Loss in epoch 78: 1.68
+2022-09-09 17:34:13, INFO: Loss in epoch 79: 1.68
+2022-09-09 17:34:13, INFO: Loss in epoch 80: 1.68
+2022-09-09 17:34:14, INFO: Loss in epoch 81: 1.68
+2022-09-09 17:34:14, INFO: Loss in epoch 82: 1.67
+2022-09-09 17:34:15, INFO: Loss in epoch 83: 1.68
+2022-09-09 17:34:16, INFO: Loss in epoch 84: 1.68
+2022-09-09 17:34:16, INFO: Loss in epoch 85: 1.67
+2022-09-09 17:34:17, INFO: Loss in epoch 86: 1.67
+2022-09-09 17:34:17, INFO: Loss in epoch 87: 1.68
+2022-09-09 17:34:18, INFO: Loss in epoch 88: 1.68
+2022-09-09 17:34:18, INFO: Loss in epoch 89: 1.67
+2022-09-09 17:34:19, INFO: Loss in epoch 90: 1.67
+2022-09-09 17:34:20, INFO: Loss in epoch 91: 1.67
+2022-09-09 17:34:20, INFO: Loss in epoch 92: 1.67
+2022-09-09 17:34:21, INFO: Loss in epoch 93: 1.67
+2022-09-09 17:34:22, INFO: Loss in epoch 94: 1.66
+2022-09-09 17:34:22, INFO: Loss in epoch 95: 1.67
+2022-09-09 17:34:23, INFO: Loss in epoch 96: 1.66
+2022-09-09 17:34:23, INFO: Loss in epoch 97: 1.66
+2022-09-09 17:34:24, INFO: Loss in epoch 98: 1.65
+2022-09-09 17:34:25, INFO: Loss in epoch 99: 1.67
+2022-09-09 17:34:25, INFO: Loss in epoch 100: 1.66
+2022-09-09 17:34:26, INFO: Loss in epoch 101: 1.65
+2022-09-09 17:34:26, INFO: Loss in epoch 102: 1.67
+2022-09-09 17:34:27, INFO: Loss in epoch 103: 1.66
+2022-09-09 17:34:28, INFO: Loss in epoch 104: 1.66
+2022-09-09 17:34:28, INFO: Loss in epoch 105: 1.65
+2022-09-09 17:34:29, INFO: Loss in epoch 106: 1.66
+2022-09-09 17:34:29, INFO: Loss in epoch 107: 1.66
+2022-09-09 17:34:30, INFO: Loss in epoch 108: 1.65
+2022-09-09 17:34:30, INFO: Loss in epoch 109: 1.65
+2022-09-09 17:34:31, INFO: Loss in epoch 110: 1.66
+2022-09-09 17:34:32, INFO: Loss in epoch 111: 1.64
+2022-09-09 17:34:32, INFO: Loss in epoch 112: 1.64
+2022-09-09 17:34:33, INFO: Loss in epoch 113: 1.65
+2022-09-09 17:34:33, INFO: Loss in epoch 114: 1.64
+2022-09-09 17:34:34, INFO: Loss in epoch 115: 1.65
+2022-09-09 17:34:34, INFO: Loss in epoch 116: 1.64
+2022-09-09 17:34:35, INFO: Loss in epoch 117: 1.65
+2022-09-09 17:34:36, INFO: Loss in epoch 118: 1.65
+2022-09-09 17:34:36, INFO: Loss in epoch 119: 1.64
+2022-09-09 17:34:37, INFO: Loss in epoch 120: 1.64
+2022-09-09 17:34:37, INFO: Loss in epoch 121: 1.65
+2022-09-09 17:34:38, INFO: Loss in epoch 122: 1.65
+2022-09-09 17:34:39, INFO: Loss in epoch 123: 1.64
+2022-09-09 17:34:39, INFO: Loss in epoch 124: 1.65
+2022-09-09 17:34:40, INFO: Loss in epoch 125: 1.64
+2022-09-09 17:34:41, INFO: Loss in epoch 126: 1.64
+2022-09-09 17:34:41, INFO: Loss in epoch 127: 1.64
+2022-09-09 17:34:42, INFO: Loss in epoch 128: 1.64
+2022-09-09 17:34:42, INFO: Loss in epoch 129: 1.63
+2022-09-09 17:34:43, INFO: Loss in epoch 130: 1.64
+2022-09-09 17:34:43, INFO: Loss in epoch 131: 1.64
+2022-09-09 17:34:44, INFO: Loss in epoch 132: 1.63
+2022-09-09 17:34:45, INFO: Loss in epoch 133: 1.64
+2022-09-09 17:34:45, INFO: Loss in epoch 134: 1.63
+2022-09-09 17:34:46, INFO: Loss in epoch 135: 1.63
+2022-09-09 17:34:46, INFO: Loss in epoch 136: 1.63
+2022-09-09 17:34:47, INFO: Loss in epoch 137: 1.63
+2022-09-09 17:34:48, INFO: Loss in epoch 138: 1.62
+2022-09-09 17:34:48, INFO: Loss in epoch 139: 1.63
+2022-09-09 17:34:49, INFO: Loss in epoch 140: 1.63
+2022-09-09 17:34:49, INFO: Loss in epoch 141: 1.63
+2022-09-09 17:34:50, INFO: Loss in epoch 142: 1.63
+2022-09-09 17:34:51, INFO: Loss in epoch 143: 1.63
+2022-09-09 17:34:51, INFO: Loss in epoch 144: 1.63
+2022-09-09 17:34:52, INFO: Loss in epoch 145: 1.62
+2022-09-09 17:34:52, INFO: Loss in epoch 146: 1.63
+2022-09-09 17:34:53, INFO: Loss in epoch 147: 1.63
+2022-09-09 17:34:54, INFO: Loss in epoch 148: 1.63
+2022-09-09 17:34:54, INFO: Loss in epoch 149: 1.59
+2022-09-09 17:34:55, INFO: Loss in epoch 150: 1.59
+2022-09-09 17:34:55, INFO: Loss in epoch 151: 1.59
+2022-09-09 17:34:56, INFO: Loss in epoch 152: 1.59
+2022-09-09 17:34:57, INFO: Loss in epoch 153: 1.59
+2022-09-09 17:34:57, INFO: Loss in epoch 154: 1.59
+2022-09-09 17:34:58, INFO: Loss in epoch 155: 1.59
+2022-09-09 17:34:58, INFO: Loss in epoch 156: 1.58
+2022-09-09 17:34:59, INFO: Loss in epoch 157: 1.58
+2022-09-09 17:35:00, INFO: Loss in epoch 158: 1.58
+2022-09-09 17:35:00, INFO: Loss in epoch 159: 1.58
+2022-09-09 17:35:01, INFO: Loss in epoch 160: 1.58
+2022-09-09 17:35:01, INFO: Loss in epoch 161: 1.58
+2022-09-09 17:35:02, INFO: Loss in epoch 162: 1.58
+2022-09-09 17:35:03, INFO: Loss in epoch 163: 1.58
+2022-09-09 17:35:03, INFO: Loss in epoch 164: 1.58
+2022-09-09 17:35:04, INFO: Loss in epoch 165: 1.58
+2022-09-09 17:35:05, INFO: Loss in epoch 166: 1.58
+2022-09-09 17:35:05, INFO: Loss in epoch 167: 1.58
+2022-09-09 17:35:06, INFO: Loss in epoch 168: 1.58
+2022-09-09 17:35:06, INFO: Loss in epoch 169: 1.58
+2022-09-09 17:35:07, INFO: Loss in epoch 170: 1.58
+2022-09-09 17:35:08, INFO: Loss in epoch 171: 1.58
+2022-09-09 17:35:08, INFO: Loss in epoch 172: 1.58
+2022-09-09 17:35:09, INFO: Loss in epoch 173: 1.58
+2022-09-09 17:35:09, INFO: Loss in epoch 174: 1.58
+2022-09-09 17:35:10, INFO: Loss in epoch 175: 1.58
+2022-09-09 17:35:11, INFO: Loss in epoch 176: 1.58
+2022-09-09 17:35:11, INFO: Loss in epoch 177: 1.58
+2022-09-09 17:35:12, INFO: Loss in epoch 178: 1.58
+2022-09-09 17:35:12, INFO: Loss in epoch 179: 1.58
+2022-09-09 17:35:13, INFO: Loss in epoch 180: 1.58
+2022-09-09 17:35:14, INFO: Loss in epoch 181: 1.58
+2022-09-09 17:35:14, INFO: Loss in epoch 182: 1.58
+2022-09-09 17:35:15, INFO: Loss in epoch 183: 1.58
+2022-09-09 17:35:16, INFO: Loss in epoch 184: 1.58
+2022-09-09 17:35:16, INFO: Loss in epoch 185: 1.58
+2022-09-09 17:35:17, INFO: Loss in epoch 186: 1.58
+2022-09-09 17:35:18, INFO: Loss in epoch 187: 1.58
+2022-09-09 17:35:19, INFO: Loss in epoch 188: 1.58
+2022-09-09 17:35:20, INFO: Loss in epoch 189: 1.58
+2022-09-09 17:35:21, INFO: Loss in epoch 190: 1.58
+2022-09-09 17:35:22, INFO: Loss in epoch 191: 1.58
+2022-09-09 17:35:23, INFO: Loss in epoch 192: 1.58
+2022-09-09 17:35:23, INFO: Loss in epoch 193: 1.58
+2022-09-09 17:35:24, INFO: Loss in epoch 194: 1.58
+2022-09-09 17:35:25, INFO: Loss in epoch 195: 1.58
+2022-09-09 17:35:25, INFO: Loss in epoch 196: 1.58
+2022-09-09 17:35:26, INFO: Loss in epoch 197: 1.58
+2022-09-09 17:35:27, INFO: Loss in epoch 198: 1.58
+2022-09-09 17:35:27, INFO: Loss in epoch 199: 1.58
+2022-09-09 17:35:28, INFO: Loss in epoch 200: 1.58
+2022-09-09 17:35:29, INFO: Loss in epoch 201: 1.58
+2022-09-09 17:35:29, INFO: Loss in epoch 202: 1.58
+2022-09-09 17:35:30, INFO: Loss in epoch 203: 1.58
+2022-09-09 17:35:31, INFO: Loss in epoch 204: 1.58
+2022-09-09 17:35:31, INFO: Loss in epoch 205: 1.58
+2022-09-09 17:35:32, INFO: Loss in epoch 206: 1.58
+2022-09-09 17:35:33, INFO: Loss in epoch 207: 1.58
+2022-09-09 17:35:33, INFO: Loss in epoch 208: 1.58
+2022-09-09 17:35:34, INFO: Loss in epoch 209: 1.58
+2022-09-09 17:35:34, INFO: Loss in epoch 210: 1.58
+2022-09-09 17:35:35, INFO: Loss in epoch 211: 1.58
+2022-09-09 17:35:36, INFO: Loss in epoch 212: 1.58
+2022-09-09 17:35:36, INFO: Loss in epoch 213: 1.58
+2022-09-09 17:35:37, INFO: Loss in epoch 214: 1.58
+2022-09-09 17:35:38, INFO: Loss in epoch 215: 1.58
+2022-09-09 17:35:38, INFO: Loss in epoch 216: 1.58
+2022-09-09 17:35:39, INFO: Loss in epoch 217: 1.58
+2022-09-09 17:35:40, INFO: Loss in epoch 218: 1.58
+2022-09-09 17:35:40, INFO: Loss in epoch 219: 1.58
+2022-09-09 17:35:41, INFO: Loss in epoch 220: 1.58
+2022-09-09 17:35:42, INFO: Loss in epoch 221: 1.58
+2022-09-09 17:35:42, INFO: Loss in epoch 222: 1.58
+2022-09-09 17:35:43, INFO: Loss in epoch 223: 1.58
+2022-09-09 17:35:44, INFO: Loss in epoch 224: 1.58
+2022-09-09 17:35:44, INFO: Loss in epoch 225: 1.58
+2022-09-09 17:35:45, INFO: Loss in epoch 226: 1.58
+2022-09-09 17:35:46, INFO: Loss in epoch 227: 1.58
+2022-09-09 17:35:46, INFO: Loss in epoch 228: 1.58
+2022-09-09 17:35:47, INFO: Loss in epoch 229: 1.58
+2022-09-09 17:35:48, INFO: Loss in epoch 230: 1.58
+2022-09-09 17:35:48, INFO: Loss in epoch 231: 1.58
+2022-09-09 17:35:49, INFO: Loss in epoch 232: 1.58
+2022-09-09 17:35:49, INFO: Loss in epoch 233: 1.58
+2022-09-09 17:35:50, INFO: Loss in epoch 234: 1.58
+2022-09-09 17:35:51, INFO: Loss in epoch 235: 1.58
+2022-09-09 17:35:51, INFO: Loss in epoch 236: 1.58
+2022-09-09 17:35:52, INFO: Loss in epoch 237: 1.58
+2022-09-09 17:35:53, INFO: Loss in epoch 238: 1.58
+2022-09-09 17:35:53, INFO: Loss in epoch 239: 1.58
+2022-09-09 17:35:54, INFO: Loss in epoch 240: 1.58
+2022-09-09 17:35:55, INFO: Loss in epoch 241: 1.58
+2022-09-09 17:35:55, INFO: Loss in epoch 242: 1.58
+2022-09-09 17:35:56, INFO: Loss in epoch 243: 1.58
+2022-09-09 17:35:57, INFO: Loss in epoch 244: 1.58
+2022-09-09 17:35:57, INFO: Loss in epoch 245: 1.58
+2022-09-09 17:35:58, INFO: Loss in epoch 246: 1.58
+2022-09-09 17:35:59, INFO: Loss in epoch 247: 1.58
+2022-09-09 17:35:59, INFO: Loss in epoch 248: 1.58
+2022-09-09 17:36:00, INFO: Loss in epoch 249: 1.58
+2022-09-09 17:36:00, INFO: Finish initializing model. Model saved
+2022-09-09 17:36:18, INFO: test in episode 0 has success rate: 0.50, failure rate: 0.50, average extra time to goal: 3
+2022-09-09 17:36:21, INFO: train in episode 0 has success rate: 0.20, failure rate: 0.40, average extra time to goal: 5
+2022-09-09 17:36:44, INFO: train in episode 1 has success rate: 0.20, failure rate: 0.40, average extra time to goal: 4
+2022-09-09 17:37:10, INFO: train in episode 2 has success rate: 0.00, failure rate: 0.40, average extra time to goal: 0
+2022-09-09 17:37:35, INFO: train in episode 3 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 15
+2022-09-09 17:37:58, INFO: train in episode 4 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 5
+2022-09-09 17:38:23, INFO: train in episode 5 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 3
+2022-09-09 17:38:51, INFO: train in episode 6 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 25
+2022-09-09 17:39:18, INFO: train in episode 7 has success rate: 0.00, failure rate: 0.50, average extra time to goal: 0
+2022-09-09 17:39:45, INFO: train in episode 8 has success rate: 0.10, failure rate: 0.10, average extra time to goal: 5
+2022-09-09 17:40:11, INFO: train in episode 9 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 32
+2022-09-09 17:40:37, INFO: train in episode 10 has success rate: 0.30, failure rate: 0.10, average extra time to goal: 24
+2022-09-09 17:41:06, INFO: train in episode 11 has success rate: 0.00, failure rate: 0.20, average extra time to goal: 0
+2022-09-09 17:41:34, INFO: train in episode 12 has success rate: 0.10, failure rate: 0.10, average extra time to goal: 14
+2022-09-09 17:42:00, INFO: train in episode 13 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 3
+2022-09-09 17:42:24, INFO: train in episode 14 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 31
+2022-09-09 17:42:48, INFO: train in episode 15 has success rate: 0.10, failure rate: 0.50, average extra time to goal: 4
+2022-09-09 17:43:14, INFO: train in episode 16 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 8
+2022-09-09 17:43:44, INFO: train in episode 17 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 30
+2022-09-09 17:44:15, INFO: train in episode 18 has success rate: 0.10, failure rate: 0.00, average extra time to goal: 73
+2022-09-09 17:44:43, INFO: train in episode 19 has success rate: 0.10, failure rate: 0.10, average extra time to goal: 37
+2022-09-09 17:45:07, INFO: train in episode 20 has success rate: 0.30, failure rate: 0.50, average extra time to goal: 3
+2022-09-09 17:45:40, INFO: train in episode 21 has success rate: 0.20, failure rate: 0.10, average extra time to goal: 50
+2022-09-09 17:46:07, INFO: train in episode 22 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 23
+2022-09-09 17:46:33, INFO: train in episode 23 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 21
+2022-09-09 17:47:02, INFO: train in episode 24 has success rate: 0.20, failure rate: 0.00, average extra time to goal: 4
+2022-09-09 17:47:30, INFO: train in episode 25 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 13
+2022-09-09 17:48:00, INFO: train in episode 26 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 13
+2022-09-09 17:48:26, INFO: train in episode 27 has success rate: 0.30, failure rate: 0.50, average extra time to goal: 11
+2022-09-09 17:48:56, INFO: train in episode 28 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 38
+2022-09-09 17:49:25, INFO: train in episode 29 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 8
+2022-09-09 17:49:53, INFO: train in episode 30 has success rate: 0.00, failure rate: 0.20, average extra time to goal: 0
+2022-09-09 17:50:21, INFO: train in episode 31 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 22
+2022-09-09 17:50:50, INFO: train in episode 32 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 4
+2022-09-09 17:51:26, INFO: train in episode 33 has success rate: 0.10, failure rate: 0.10, average extra time to goal: 3
+2022-09-09 17:51:57, INFO: train in episode 34 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 60
+2022-09-09 17:52:25, INFO: train in episode 35 has success rate: 0.40, failure rate: 0.20, average extra time to goal: 24
+2022-09-09 17:52:57, INFO: train in episode 36 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 44
+2022-09-09 17:53:29, INFO: train in episode 37 has success rate: 0.30, failure rate: 0.00, average extra time to goal: 5
+2022-09-09 17:54:01, INFO: train in episode 38 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 7
+2022-09-09 17:54:30, INFO: train in episode 39 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 27
+2022-09-09 17:54:57, INFO: train in episode 40 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 5
+2022-09-09 17:55:32, INFO: train in episode 41 has success rate: 0.40, failure rate: 0.10, average extra time to goal: 39
+2022-09-09 17:56:02, INFO: train in episode 42 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 5
+2022-09-09 17:56:31, INFO: train in episode 43 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 26
+2022-09-09 17:56:59, INFO: train in episode 44 has success rate: 0.30, failure rate: 0.10, average extra time to goal: 5
+2022-09-09 17:57:28, INFO: train in episode 45 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 6
+2022-09-09 17:57:55, INFO: train in episode 46 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 16
+2022-09-09 17:58:27, INFO: train in episode 47 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 32
+2022-09-09 17:58:56, INFO: train in episode 48 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 6
+2022-09-09 17:59:26, INFO: train in episode 49 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 4
+2022-09-09 17:59:54, INFO: train in episode 50 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 11
+2022-09-09 18:00:30, INFO: train in episode 51 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 5
+2022-09-09 18:00:59, INFO: train in episode 52 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 5
+2022-09-09 18:01:26, INFO: train in episode 53 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 5
+2022-09-09 18:01:57, INFO: train in episode 54 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 3
+2022-09-09 18:02:33, INFO: train in episode 55 has success rate: 0.10, failure rate: 0.10, average extra time to goal: 44
+2022-09-09 18:03:05, INFO: train in episode 56 has success rate: 0.30, failure rate: 0.10, average extra time to goal: 5
+2022-09-09 18:03:37, INFO: train in episode 57 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 13
+2022-09-09 18:04:04, INFO: train in episode 58 has success rate: 0.50, failure rate: 0.10, average extra time to goal: 5
+2022-09-09 18:04:35, INFO: train in episode 59 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 56
+2022-09-09 18:05:02, INFO: train in episode 60 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 6
+2022-09-09 18:05:26, INFO: train in episode 61 has success rate: 0.00, failure rate: 0.70, average extra time to goal: 0
+2022-09-09 18:05:59, INFO: train in episode 62 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 54
+2022-09-09 18:06:31, INFO: train in episode 63 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 68
+2022-09-09 18:07:03, INFO: train in episode 64 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 5
+2022-09-09 18:07:29, INFO: train in episode 65 has success rate: 0.10, failure rate: 0.50, average extra time to goal: 41
+2022-09-09 18:08:00, INFO: train in episode 66 has success rate: 0.00, failure rate: 0.30, average extra time to goal: 0
+2022-09-09 18:08:27, INFO: train in episode 67 has success rate: 0.30, failure rate: 0.40, average extra time to goal: 15
+2022-09-09 18:08:55, INFO: train in episode 68 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 17
+2022-09-09 18:09:26, INFO: train in episode 69 has success rate: 0.00, failure rate: 0.40, average extra time to goal: 0
+2022-09-09 18:10:00, INFO: train in episode 70 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 4
+2022-09-09 18:10:32, INFO: train in episode 71 has success rate: 0.20, failure rate: 0.40, average extra time to goal: 12
+2022-09-09 18:11:00, INFO: train in episode 72 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 15
+2022-09-09 18:11:37, INFO: train in episode 73 has success rate: 0.20, failure rate: 0.00, average extra time to goal: 27
+2022-09-09 18:12:09, INFO: train in episode 74 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 6
+2022-09-09 18:12:34, INFO: train in episode 75 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 6
+2022-09-09 18:13:07, INFO: train in episode 76 has success rate: 0.00, failure rate: 0.30, average extra time to goal: 0
+2022-09-09 18:13:41, INFO: train in episode 77 has success rate: 0.00, failure rate: 0.30, average extra time to goal: 0
+2022-09-09 18:14:13, INFO: train in episode 78 has success rate: 0.20, failure rate: 0.40, average extra time to goal: 35
+2022-09-09 18:14:36, INFO: train in episode 79 has success rate: 0.10, failure rate: 0.70, average extra time to goal: 3
+2022-09-09 18:15:06, INFO: train in episode 80 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 5
+2022-09-09 18:15:37, INFO: train in episode 81 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 4
+2022-09-09 18:16:12, INFO: train in episode 82 has success rate: 0.00, failure rate: 0.30, average extra time to goal: 0
+2022-09-09 18:16:42, INFO: train in episode 83 has success rate: 0.20, failure rate: 0.40, average extra time to goal: 47
+2022-09-09 18:17:20, INFO: train in episode 84 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 58
+2022-09-09 18:17:47, INFO: train in episode 85 has success rate: 0.40, failure rate: 0.40, average extra time to goal: 4
+2022-09-09 18:18:24, INFO: train in episode 86 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 50
+2022-09-09 18:18:58, INFO: train in episode 87 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 20
+2022-09-09 18:19:32, INFO: train in episode 88 has success rate: 0.30, failure rate: 0.10, average extra time to goal: 25
+2022-09-09 18:20:02, INFO: train in episode 89 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 2
+2022-09-09 18:20:33, INFO: train in episode 90 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 48
+2022-09-09 18:21:01, INFO: train in episode 91 has success rate: 0.60, failure rate: 0.10, average extra time to goal: 10
+2022-09-09 18:21:31, INFO: train in episode 92 has success rate: 0.40, failure rate: 0.20, average extra time to goal: 6
+2022-09-09 18:22:02, INFO: train in episode 93 has success rate: 0.00, failure rate: 0.40, average extra time to goal: 0
+2022-09-09 18:22:41, INFO: train in episode 94 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 45
+2022-09-09 18:23:22, INFO: train in episode 95 has success rate: 0.30, failure rate: 0.10, average extra time to goal: 46
+2022-09-09 18:23:59, INFO: train in episode 96 has success rate: 0.50, failure rate: 0.20, average extra time to goal: 38
+2022-09-09 18:24:38, INFO: train in episode 97 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 5
+2022-09-09 18:25:16, INFO: train in episode 98 has success rate: 0.00, failure rate: 0.40, average extra time to goal: 0
+2022-09-09 18:25:58, INFO: train in episode 99 has success rate: 0.20, failure rate: 0.10, average extra time to goal: 6
+2022-09-09 18:26:41, INFO: train in episode 100 has success rate: 0.00, failure rate: 0.20, average extra time to goal: 0
+2022-09-09 18:27:14, INFO: train in episode 101 has success rate: 0.40, failure rate: 0.40, average extra time to goal: 30
+2022-09-09 18:27:49, INFO: train in episode 102 has success rate: 0.60, failure rate: 0.10, average extra time to goal: 12
+2022-09-09 18:28:26, INFO: train in episode 103 has success rate: 0.40, failure rate: 0.00, average extra time to goal: 13
+2022-09-09 18:29:01, INFO: train in episode 104 has success rate: 0.50, failure rate: 0.10, average extra time to goal: 38
+2022-09-09 18:29:40, INFO: train in episode 105 has success rate: 0.60, failure rate: 0.00, average extra time to goal: 24
+2022-09-09 18:30:19, INFO: train in episode 106 has success rate: 0.20, failure rate: 0.10, average extra time to goal: 10
+2022-09-09 18:31:02, INFO: train in episode 107 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 3
+2022-09-09 18:31:51, INFO: train in episode 108 has success rate: 0.10, failure rate: 0.00, average extra time to goal: 11
+2022-09-09 18:32:32, INFO: train in episode 109 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 6
+2022-09-09 18:33:12, INFO: train in episode 110 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 11
+2022-09-09 18:33:46, INFO: train in episode 111 has success rate: 0.60, failure rate: 0.30, average extra time to goal: 23
+2022-09-09 18:34:24, INFO: train in episode 112 has success rate: 0.30, failure rate: 0.40, average extra time to goal: 25
+2022-09-09 18:35:10, INFO: train in episode 113 has success rate: 0.10, failure rate: 0.10, average extra time to goal: 3
+2022-09-09 18:35:44, INFO: train in episode 114 has success rate: 0.10, failure rate: 0.50, average extra time to goal: 81
+2022-09-09 18:36:23, INFO: train in episode 115 has success rate: 0.30, failure rate: 0.10, average extra time to goal: 25
+2022-09-09 18:36:59, INFO: train in episode 116 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 3
+2022-09-09 18:37:36, INFO: train in episode 117 has success rate: 0.30, failure rate: 0.00, average extra time to goal: 11
+2022-09-09 18:38:11, INFO: train in episode 118 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 24
+2022-09-09 18:38:48, INFO: train in episode 119 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 4
+2022-09-09 18:39:27, INFO: train in episode 120 has success rate: 0.60, failure rate: 0.10, average extra time to goal: 47
+2022-09-09 18:40:04, INFO: train in episode 121 has success rate: 0.30, failure rate: 0.40, average extra time to goal: 20
+2022-09-09 18:40:47, INFO: train in episode 122 has success rate: 0.20, failure rate: 0.10, average extra time to goal: 52
+2022-09-09 18:41:15, INFO: train in episode 123 has success rate: 0.60, failure rate: 0.30, average extra time to goal: 9
+2022-09-09 18:41:56, INFO: train in episode 124 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 6
+2022-09-09 18:42:41, INFO: train in episode 125 has success rate: 0.20, failure rate: 0.10, average extra time to goal: 8
+2022-09-09 18:43:14, INFO: train in episode 126 has success rate: 0.40, failure rate: 0.20, average extra time to goal: 19
+2022-09-09 18:43:52, INFO: train in episode 127 has success rate: 0.40, failure rate: 0.10, average extra time to goal: 28
+2022-09-09 18:44:22, INFO: train in episode 128 has success rate: 0.60, failure rate: 0.10, average extra time to goal: 4
+2022-09-09 18:44:48, INFO: train in episode 129 has success rate: 0.20, failure rate: 0.70, average extra time to goal: 6
+2022-09-09 18:45:18, INFO: train in episode 130 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 6
+2022-09-09 18:45:50, INFO: train in episode 131 has success rate: 0.70, failure rate: 0.20, average extra time to goal: 18
+2022-09-09 18:46:27, INFO: train in episode 132 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 3
+2022-09-09 18:46:59, INFO: train in episode 133 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 6
+2022-09-09 18:47:30, INFO: train in episode 134 has success rate: 0.50, failure rate: 0.20, average extra time to goal: 14
+2022-09-09 18:48:04, INFO: train in episode 135 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 4
+2022-09-09 18:48:44, INFO: train in episode 136 has success rate: 0.40, failure rate: 0.10, average extra time to goal: 6
+2022-09-09 18:49:19, INFO: train in episode 137 has success rate: 0.50, failure rate: 0.20, average extra time to goal: 7
+2022-09-09 18:49:50, INFO: train in episode 138 has success rate: 0.50, failure rate: 0.40, average extra time to goal: 11
+2022-09-09 18:50:23, INFO: train in episode 139 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 4
+2022-09-09 18:50:54, INFO: train in episode 140 has success rate: 0.70, failure rate: 0.20, average extra time to goal: 16
+2022-09-09 18:51:28, INFO: train in episode 141 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 5
+2022-09-09 18:52:04, INFO: train in episode 142 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 22
+2022-09-09 18:52:42, INFO: train in episode 143 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 35
+2022-09-09 18:53:19, INFO: train in episode 144 has success rate: 0.40, failure rate: 0.10, average extra time to goal: 3
+2022-09-09 18:53:52, INFO: train in episode 145 has success rate: 0.10, failure rate: 0.60, average extra time to goal: 43
+2022-09-09 18:54:28, INFO: train in episode 146 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 9
+2022-09-09 18:54:58, INFO: train in episode 147 has success rate: 0.10, failure rate: 0.60, average extra time to goal: 54
+2022-09-09 18:55:39, INFO: train in episode 148 has success rate: 0.50, failure rate: 0.10, average extra time to goal: 21
+2022-09-09 18:56:20, INFO: train in episode 149 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 28
+2022-09-09 18:56:59, INFO: train in episode 150 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 55
+2022-09-09 18:57:41, INFO: train in episode 151 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 25
+2022-09-09 18:58:16, INFO: train in episode 152 has success rate: 0.30, failure rate: 0.50, average extra time to goal: 48
+2022-09-09 18:59:02, INFO: train in episode 153 has success rate: 0.40, failure rate: 0.10, average extra time to goal: 14
+2022-09-09 18:59:45, INFO: train in episode 154 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 17
+2022-09-09 19:00:25, INFO: train in episode 155 has success rate: 0.50, failure rate: 0.10, average extra time to goal: 11
+2022-09-09 19:01:07, INFO: train in episode 156 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 4
+2022-09-09 19:01:52, INFO: train in episode 157 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 30
+2022-09-09 19:02:36, INFO: train in episode 158 has success rate: 0.50, failure rate: 0.10, average extra time to goal: 40
+2022-09-09 19:03:09, INFO: train in episode 159 has success rate: 0.60, failure rate: 0.30, average extra time to goal: 20
+2022-09-09 19:03:56, INFO: train in episode 160 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 7
+2022-09-09 19:04:32, INFO: train in episode 161 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 42
+2022-09-09 19:05:14, INFO: train in episode 162 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 65
+2022-09-09 19:06:05, INFO: train in episode 163 has success rate: 0.50, failure rate: 0.00, average extra time to goal: 47
+2022-09-09 19:06:48, INFO: train in episode 164 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 8
+2022-09-09 19:07:20, INFO: train in episode 165 has success rate: 0.30, failure rate: 0.50, average extra time to goal: 18
+2022-09-09 19:08:01, INFO: train in episode 166 has success rate: 0.60, failure rate: 0.10, average extra time to goal: 18
+2022-09-09 19:08:33, INFO: train in episode 167 has success rate: 0.30, failure rate: 0.50, average extra time to goal: 19
+2022-09-09 19:09:10, INFO: train in episode 168 has success rate: 0.30, failure rate: 0.50, average extra time to goal: 19
+2022-09-09 19:09:52, INFO: train in episode 169 has success rate: 0.50, failure rate: 0.20, average extra time to goal: 13
+2022-09-09 19:10:27, INFO: train in episode 170 has success rate: 0.60, failure rate: 0.20, average extra time to goal: 22
+2022-09-09 19:11:11, INFO: train in episode 171 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 28
+2022-09-09 19:11:57, INFO: train in episode 172 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 27
+2022-09-09 19:12:33, INFO: train in episode 173 has success rate: 0.50, failure rate: 0.40, average extra time to goal: 20
+2022-09-09 19:13:21, INFO: train in episode 174 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 37
+2022-09-09 19:14:05, INFO: train in episode 175 has success rate: 0.30, failure rate: 0.20, average extra time to goal: 5
+2022-09-09 19:14:51, INFO: train in episode 176 has success rate: 0.10, failure rate: 0.40, average extra time to goal: 6
+2022-09-09 19:15:32, INFO: train in episode 177 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 21
+2022-09-09 19:15:59, INFO: train in episode 178 has success rate: 0.20, failure rate: 0.60, average extra time to goal: 22
+2022-09-09 19:16:23, INFO: train in episode 179 has success rate: 0.30, failure rate: 0.60, average extra time to goal: 5
+2022-09-09 19:16:59, INFO: train in episode 180 has success rate: 0.10, failure rate: 0.30, average extra time to goal: 74
+2022-09-09 19:17:42, INFO: train in episode 181 has success rate: 0.20, failure rate: 0.20, average extra time to goal: 46
+2022-09-09 19:18:14, INFO: train in episode 182 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 12
+2022-09-09 19:18:40, INFO: train in episode 183 has success rate: 0.60, failure rate: 0.40, average extra time to goal: 7
+2022-09-09 19:19:08, INFO: train in episode 184 has success rate: 0.40, failure rate: 0.40, average extra time to goal: 4
+2022-09-09 19:19:33, INFO: train in episode 185 has success rate: 0.60, failure rate: 0.30, average extra time to goal: 4
+2022-09-09 19:20:07, INFO: train in episode 186 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 28
+2022-09-09 19:20:44, INFO: train in episode 187 has success rate: 0.40, failure rate: 0.20, average extra time to goal: 23
+2022-09-09 19:21:14, INFO: train in episode 188 has success rate: 0.50, failure rate: 0.20, average extra time to goal: 10
+2022-09-09 19:21:49, INFO: train in episode 189 has success rate: 0.30, failure rate: 0.30, average extra time to goal: 2
+2022-09-09 19:22:21, INFO: train in episode 190 has success rate: 0.20, failure rate: 0.50, average extra time to goal: 44
+2022-09-09 19:22:51, INFO: train in episode 191 has success rate: 0.30, failure rate: 0.50, average extra time to goal: 29
+2022-09-09 19:23:19, INFO: train in episode 192 has success rate: 0.20, failure rate: 0.60, average extra time to goal: 44
+2022-09-09 19:23:53, INFO: train in episode 193 has success rate: 0.10, failure rate: 0.50, average extra time to goal: 14
+2022-09-09 19:24:36, INFO: train in episode 194 has success rate: 0.10, failure rate: 0.20, average extra time to goal: 5
+2022-09-09 19:25:10, INFO: train in episode 195 has success rate: 0.20, failure rate: 0.50, average extra time to goal: 22
+2022-09-09 19:25:42, INFO: train in episode 196 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 4
+2022-09-09 19:26:17, INFO: train in episode 197 has success rate: 0.10, failure rate: 0.70, average extra time to goal: 85
+2022-09-09 19:26:54, INFO: train in episode 198 has success rate: 0.20, failure rate: 0.30, average extra time to goal: 3
+2022-09-09 19:27:28, INFO: train in episode 199 has success rate: 0.40, failure rate: 0.30, average extra time to goal: 10
+2022-09-09 19:27:50, INFO: Finish initializing model. Model saved
