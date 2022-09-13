@@ -12,11 +12,10 @@ def calcRates(path):
 
     return success_rate, failure_rate        
 
-print(type(calcRates("./data/model/output.log")))
 
-success_rate_1, failure_rate_1 = calcRates("./data/model/output.log")
-success_rate_2, failure_rate_2 = calcRates("./data/model_default_2/output.log")
-success_rate_3, failure_rate_3 = calcRates("./data/model_default_3/output.log")
+success_rate_1, failure_rate_1 = calcRates("./data/model3_1000episodes_1/output.log")
+success_rate_2, failure_rate_2 = calcRates("./data/model3_1000episodes_2/output.log")
+success_rate_3, failure_rate_3 = calcRates("./data/model3_1000episodes_3/output.log")
 
 final_success_rate = []
 final_failure_rate = []
