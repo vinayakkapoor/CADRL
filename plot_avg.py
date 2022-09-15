@@ -13,18 +13,24 @@ def calcRates(path):
     return success_rate, failure_rate        
 
 
-success_rate_1, failure_rate_1 = calcRates("./data/model3_1000episodes_1/output.log")
-success_rate_2, failure_rate_2 = calcRates("./data/model3_1000episodes_2/output.log")
-success_rate_3, failure_rate_3 = calcRates("./data/model3_1000episodes_3/output.log")
+success_rate_1, failure_rate_1 = calcRates("./data/model_gamma_batch_cap_1_dataset4/output.log")
+success_rate_2, failure_rate_2 = calcRates("./data/model_gamma_batch_cap_2_dataset4/output.log")
+success_rate_3, failure_rate_3 = calcRates("./data/model_gamma_batch_cap_3_dataset4/output.log")
 
 final_success_rate = []
 final_failure_rate = []
-for i in range(len(success_rate_1)):
+for i in range(min(len(success_rate_1),len(success_rate_2),len(success_rate_3))):
     final_success_rate.append((success_rate_1[i] + success_rate_2[i] + success_rate_3[i])/3.0)
     final_failure_rate.append((failure_rate_1[i] + failure_rate_2[i] + failure_rate_3[i])/3.0)
 
 
 episodes = range(1,len(final_success_rate)+1)
+
+print("On average, ", len(final_success_rate)," episodes were run, with ", len(final_success_rate)*10, "iterations")
+print("No of successfull runs :", 10*sum(final_success_rate), "  ", 10*sum(final_success_rate)/ len(final_success_rate)*10,"%")
+print("No of unsuccessfull runs :", 10*sum(final_failure_rate),"  ", 10*sum(final_failure_rate)/ len(final_success_rate)*10,"%")
+noOfNoResults = 10*len(final_success_rate) - 10*sum(final_success_rate) - 10*sum(final_failure_rate)
+print("No of no result runs :", noOfNoResults, "  ", 10*noOfNoResults/len(final_success_rate))
 
 plt.plot(episodes,final_success_rate,label='Success rate')
 plt.plot(episodes,final_failure_rate, label='Failure rate')

@@ -174,7 +174,7 @@ def optimize_batch(model, data_loader, data_size, optimizer, lr_scheduler, crite
             loss.backward()
             optimizer.step()
             epoch_loss += loss.data.item()
-        # logging.info('Loss in epoch {} is {}'.format(epoch, epoch_loss))
+        logging.info('Loss in epoch {} is {}'.format(epoch, epoch_loss))
         losses.append(epoch_loss / data_size)
     average_epoch_loss = sum(losses) / len(losses)
     return average_epoch_loss
