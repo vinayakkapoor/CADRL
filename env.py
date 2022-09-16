@@ -109,7 +109,7 @@ class ENV(object):
         if self.phase == 'train':
             angle = random.random() * math.pi
             while math.sin((math.pi - angle)/2) < 0.3/2:
-                angle = random.random() * math.pi
+                angle = random.random() * math.pi * 2
         else:
             if case is not None:
                 angle = (case % 10) / 10 * math.pi
@@ -119,7 +119,7 @@ class ENV(object):
                 self.test_counter += 1
         x = cr * math.cos(angle)
         y = cr * math.sin(angle)
-        theta = angle# + math.pi
+        theta = random.random() * math.pi * 2
 
         x2_s = random.randint(-10,-5)
         y2_s = random.randint(-10,-5)
