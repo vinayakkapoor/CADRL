@@ -1,4 +1,4 @@
-positions = [[[55,55],[55,55]],[[55,55],[55,55]]]
-
-pos = positions[0, 0, :]
-print(pos)
+import time
+for i in range(100):
+    print("a")
+    time.sleep(1)

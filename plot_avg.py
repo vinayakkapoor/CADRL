@@ -13,10 +13,10 @@ def calcRates(path):
     return success_rate, failure_rate        
 
 
-success_rate_1, failure_rate_1 = calcRates("./data/model_gamma_batch_cap_dataset4_episodes_env_1/output.log")
-success_rate_2, failure_rate_2 = calcRates("./data/model_gamma_batch_cap_dataset4_episodes_env_2/output.log")
-success_rate_3, failure_rate_3 = calcRates("./data/model_gamma_batch_cap_dataset4_episodes_env_3/output.log")
-success_rate_4, failure_rate_4 = calcRates("./data/model_gamma_batch_cap_dataset4_episodes_env_4/output.log")
+success_rate_1, failure_rate_1 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_1/output.log")
+success_rate_2, failure_rate_2 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_2/output.log")
+success_rate_3, failure_rate_3 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_3/output.log")
+success_rate_4, failure_rate_4 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_4/output.log")
 
 final_success_rate = []
 final_failure_rate = []

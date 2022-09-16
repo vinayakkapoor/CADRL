@@ -2,6 +2,7 @@ import math
 import random
 from utils import JointState
 
+#currently in X Position configuration
 
 class Agent(object):
     def __init__(self, px, py, pgx, pgy, radius, v_pref, theta, kinematic):
@@ -75,6 +76,7 @@ class ENV(object):
                               self.agents[1-agent_idx].get_observable_state()))
 
     # def reset(self, case=None):
+
     #     cr = self.crossing_radius
     #     self.agents[0] = Agent(-cr, 0, cr, 0, self.radius, self.v_pref, 0, self.kinematic)
     #     if self.phase == 'train':
