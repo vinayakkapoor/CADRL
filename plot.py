@@ -7,7 +7,7 @@ failure_rate = []
 path = sys.argv[1]
 find_in_line = "train in "
 
-if "test" in path:
+if "_test" in path:
     find_in_line = "test in "
 
 with open(path,"r") as f:
