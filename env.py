@@ -4,6 +4,10 @@ from utils import JointState
 
 #currently in switching Position configuration
 
+#0 - swithcingPos
+#1 - X
+CONF = 0
+
 class Agent(object):
     def __init__(self, px, py, pgx, pgy, radius, v_pref, theta, kinematic):
         self.px = px
@@ -75,28 +79,89 @@ class ENV(object):
             return JointState(*(self.agents[agent_idx].get_full_state() +
                               self.agents[1-agent_idx].get_observable_state()))
 
-    def reset(self, case=None):
-
-        cr = self.crossing_radius
-        self.agents[0] = Agent(-cr, 0, cr, 0, self.radius, self.v_pref, 0, self.kinematic)
-        if self.phase == 'train':
-            angle = random.random() * math.pi
-            while math.sin((math.pi - angle)/2) < 0.3/2:
+    def reset(self,case=None):
+        if CONF == 0:
+            cr = self.crossing_radius
+            self.agents[0] = Agent(-cr, 0, cr, 0, self.radius, self.v_pref, 0, self.kinematic)
+            if self.phase == 'train':
                 angle = random.random() * math.pi
-        else:
-            if case is not None:
-                angle = (case % 10) / 10 * math.pi
-                self.test_counter = case
+                while math.sin((math.pi - angle)/2) < 0.3/2:
+                    angle = random.random() * math.pi
             else:
-                angle = (self.test_counter % 10) / 10 * math.pi
-                self.test_counter += 1
-        x = cr * math.cos(angle)
-        y = cr * math.sin(angle)
-        theta = angle + math.pi
-        self.agents[1] = Agent(x, y, -x, -y, self.radius, self.v_pref, theta, self.kinematic)
-        self.counter = 0
+                if case is not None:
+                    angle = (case % 10) / 10 * math.pi
+                    self.test_counter = case
+                else:
+                    angle = (self.test_counter % 10) / 10 * math.pi
+                    self.test_counter += 1
+            x = cr * math.cos(angle)
+            y = cr * math.sin(angle)
+            theta = angle + math.pi
+            self.agents[1] = Agent(x, y, -x, -y, self.radius, self.v_pref, theta, self.kinematic)
+            self.counter = 0
 
-        return [self.compute_joint_state(0), self.compute_joint_state(1)]
+            return [self.compute_joint_state(0), self.compute_joint_state(1)]
+        
+        elif CONF == 1:
+            x1_s = random.randint(-10,-5)
+            y1_s = random.randint(5,10)
+
+            x1_g = random.randint(5,10)
+            y1_g = random.randint(-10,-5)
+
+            self.agents[0] = Agent(x1_s, y1_s, x1_g, y1_g, self.radius, self.v_pref, 0, self.kinematic)
+            if self.phase == 'train':
+                angle = random.random() * math.pi
+                while math.sin((math.pi - angle)/2) < 0.3/2:
+                    angle = random.random() * math.pi * 2
+            else:
+                if case is not None:
+                    angle = (case % 10) / 10 * math.pi
+                    self.test_counter = case
+                else:
+                    angle = (self.test_counter % 10) / 10 * math.pi
+                    self.test_counter += 1
+            
+            theta = random.random() * math.pi * 2
+
+            x2_s = random.randint(-10,-5)
+            y2_s = random.randint(-10,-5)
+
+            x2_g = random.randint(5,10)
+            y2_g = random.randint(5,10)
+
+            self.agents[1] = Agent(x2_s, y2_s, x2_g, y2_g, self.radius, self.v_pref, theta, self.kinematic)
+            self.counter = 0
+
+            return [self.compute_joint_state(0), self.compute_joint_state(1)]
+        else:
+            print("Invalid configuration!")
+            return 0
+
+
+
+    # def reset(self, case=None):
+
+    #     cr = self.crossing_radius
+    #     self.agents[0] = Agent(-cr, 0, cr, 0, self.radius, self.v_pref, 0, self.kinematic)
+    #     if self.phase == 'train':
+    #         angle = random.random() * math.pi
+    #         while math.sin((math.pi - angle)/2) < 0.3/2:
+    #             angle = random.random() * math.pi
+    #     else:
+    #         if case is not None:
+    #             angle = (case % 10) / 10 * math.pi
+    #             self.test_counter = case
+    #         else:
+    #             angle = (self.test_counter % 10) / 10 * math.pi
+    #             self.test_counter += 1
+    #     x = cr * math.cos(angle)
+    #     y = cr * math.sin(angle)
+    #     theta = angle + math.pi
+    #     self.agents[1] = Agent(x, y, -x, -y, self.radius, self.v_pref, theta, self.kinematic)
+    #     self.counter = 0
+
+    #     return [self.compute_joint_state(0), self.compute_joint_state(1)]
 
     # def reset(self, case=None):
     #     cr = self.crossing_radius
