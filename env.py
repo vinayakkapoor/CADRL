@@ -6,7 +6,7 @@ from utils import JointState
 
 #0 - swithcingPos
 #1 - X
-CONF = 0
+CONF = 1
 
 class Agent(object):
     def __init__(self, px, py, pgx, pgy, radius, v_pref, theta, kinematic):
