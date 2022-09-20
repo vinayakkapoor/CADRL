@@ -2,11 +2,11 @@ import math
 import random
 from utils import JointState
 
-#currently in switching Position configuration
 
 #0 - swithcingPos
 #1 - X
 CONF = 1
+
 
 class Agent(object):
     def __init__(self, px, py, pgx, pgy, radius, v_pref, theta, kinematic):
@@ -80,7 +80,8 @@ class ENV(object):
                               self.agents[1-agent_idx].get_observable_state()))
 
     def reset(self,case=None):
-        if CONF == 0:
+        r = random.random()
+        if r < p:
             cr = self.crossing_radius
             self.agents[0] = Agent(-cr, 0, cr, 0, self.radius, self.v_pref, 0, self.kinematic)
             if self.phase == 'train':
@@ -102,7 +103,7 @@ class ENV(object):
 
             return [self.compute_joint_state(0), self.compute_joint_state(1)]
         
-        elif CONF == 1:
+        else:
             x1_s = random.randint(-10,-5)
             y1_s = random.randint(5,10)
 
@@ -134,9 +135,7 @@ class ENV(object):
             self.counter = 0
 
             return [self.compute_joint_state(0), self.compute_joint_state(1)]
-        else:
-            print("Invalid configuration!")
-            return 0
+        
 
 
 

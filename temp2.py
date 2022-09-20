@@ -1,4 +1,5 @@
 import time
+import random
 for i in range(100):
-    print("a")
-    time.sleep(1)
+    print(random.random())
+    
