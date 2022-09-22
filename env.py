@@ -5,7 +5,7 @@ from utils import JointState
 
 #0 - swithcingPos
 #1 - X
-CONF = 1
+CONF = 0
 
 
 class Agent(object):
