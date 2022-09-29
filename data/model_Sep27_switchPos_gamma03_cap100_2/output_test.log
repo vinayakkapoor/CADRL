@@ -1,0 +1,23 @@
+2022-09-28 03:28:45, INFO: Using device: cuda:0
+2022-09-28 03:36:34, INFO: Total number of state_value pairs: 100
+2022-09-28 03:36:34, INFO: Load initialized model weights
+2022-09-28 03:50:52, INFO: test in episode 0 has success rate: 0.41, failure rate: 0.00, average extra time to goal: 33
+2022-09-28 04:06:04, INFO: test in episode 1 has success rate: 0.39, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 04:21:06, INFO: test in episode 2 has success rate: 0.34, failure rate: 0.00, average extra time to goal: 37
+2022-09-28 04:35:58, INFO: test in episode 3 has success rate: 0.36, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 04:50:12, INFO: test in episode 4 has success rate: 0.41, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 05:03:25, INFO: test in episode 5 has success rate: 0.39, failure rate: 0.00, average extra time to goal: 35
+2022-09-28 05:15:41, INFO: test in episode 6 has success rate: 0.38, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 05:27:21, INFO: test in episode 7 has success rate: 0.37, failure rate: 0.00, average extra time to goal: 35
+2022-09-28 05:39:07, INFO: test in episode 8 has success rate: 0.36, failure rate: 0.00, average extra time to goal: 36
+2022-09-28 05:49:58, INFO: test in episode 9 has success rate: 0.35, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 06:01:01, INFO: test in episode 10 has success rate: 0.36, failure rate: 0.00, average extra time to goal: 35
+2022-09-28 06:11:47, INFO: test in episode 11 has success rate: 0.42, failure rate: 0.00, average extra time to goal: 38
+2022-09-28 06:22:45, INFO: test in episode 12 has success rate: 0.38, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 06:33:43, INFO: test in episode 13 has success rate: 0.37, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 06:41:51, INFO: test in episode 14 has success rate: 0.36, failure rate: 0.00, average extra time to goal: 33
+2022-09-28 06:49:15, INFO: test in episode 15 has success rate: 0.41, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 06:56:26, INFO: test in episode 16 has success rate: 0.36, failure rate: 0.00, average extra time to goal: 34
+2022-09-28 07:02:29, INFO: test in episode 17 has success rate: 0.41, failure rate: 0.00, average extra time to goal: 37
+2022-09-28 07:08:05, INFO: test in episode 18 has success rate: 0.41, failure rate: 0.00, average extra time to goal: 38
+2022-09-28 07:13:42, INFO: test in episode 19 has success rate: 0.40, failure rate: 0.00, average extra time to goal: 40
