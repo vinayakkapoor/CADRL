@@ -1,0 +1,12 @@
+2022-09-30 13:55:50, INFO: Using device: cuda:0
+2022-09-30 14:03:06, INFO: Total number of state_value pairs: 100
+2022-09-30 14:03:06, INFO: Load initialized model weights
+2022-09-30 14:19:30, INFO: test in episode 0 has success rate: 0.79, failure rate: 0.12, average extra time to goal: 28
+2022-09-30 14:35:11, INFO: test in episode 1 has success rate: 0.80, failure rate: 0.13, average extra time to goal: 27
+2022-09-30 14:50:20, INFO: test in episode 2 has success rate: 0.80, failure rate: 0.14, average extra time to goal: 27
+2022-09-30 15:06:48, INFO: test in episode 3 has success rate: 0.74, failure rate: 0.19, average extra time to goal: 31
+2022-09-30 15:21:03, INFO: test in episode 4 has success rate: 0.77, failure rate: 0.15, average extra time to goal: 25
+2022-09-30 15:35:30, INFO: test in episode 5 has success rate: 0.84, failure rate: 0.09, average extra time to goal: 27
+2022-09-30 15:50:00, INFO: test in episode 6 has success rate: 0.73, failure rate: 0.17, average extra time to goal: 28
+2022-09-30 16:04:22, INFO: test in episode 7 has success rate: 0.77, failure rate: 0.14, average extra time to goal: 28
+2022-09-30 16:18:31, INFO: test in episode 8 has success rate: 0.80, failure rate: 0.13, average extra time to goal: 28

@@ -8,7 +8,7 @@ from utils import JointState
 CONF = 1
 
 #p - prob of selecting env switchingPos
-#p = 0.5
+p = 0.9
 
 
 class Agent(object):
@@ -83,7 +83,7 @@ class ENV(object):
                               self.agents[1-agent_idx].get_observable_state()))
 
     def reset(self,case=None):
-        #r = random.random()
+        r = random.random()
         #if r < p:
         if CONF == 0:
             cr = self.crossing_radius
