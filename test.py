@@ -429,7 +429,7 @@ def main():
         print('Output folder already exists')
     else:
         os.mkdir(output_dir)
-    log_file = os.path.join(output_dir, 'output_test.log')
+    log_file = os.path.join(output_dir, 'output_test_X.log')
     shutil.copy(args.config, output_dir)
     initialized_weights = os.path.join(output_dir, 'initialized_model.pth')    
     trained_weights = os.path.join(output_dir, 'trained_model.pth')
