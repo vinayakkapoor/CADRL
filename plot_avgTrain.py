@@ -1,5 +1,13 @@
 import matplotlib.pyplot as plt
-import sys
+import argparse
+
+parser = argparse.ArgumentParser("Parse output files")
+parser.add_argument('--save', type=str)
+parser.add_argument('--show', type=str,default='true')
+args = parser.parse_args()
+saveType = args.save
+showType = args.show
+
 
 def calcRates(path):
     success_rate = []
@@ -12,17 +20,19 @@ def calcRates(path):
 
     return success_rate, failure_rate        
 
+modelName = "model_Sep30_p09_gamma05_cap100000_batch_10000_{}"
+noOfSimilarModels = 4.0
 
-success_rate_1, failure_rate_1 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_1/output.log")
-success_rate_2, failure_rate_2 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_2/output.log")
-success_rate_3, failure_rate_3 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_3/output.log")
-success_rate_4, failure_rate_4 = calcRates("./initial_testing/Sep15/model_gamma_batch_cap_dataset4_episodes_env_4/output.log")
+success_rate_1, failure_rate_1 = calcRates("./data/"+modelName.format(1)+"/output.log")
+success_rate_2, failure_rate_2 = calcRates("./data/"+modelName.format(2)+"/output.log")
+success_rate_3, failure_rate_3 = calcRates("./data/"+modelName.format(3)+"/output.log")
+success_rate_4, failure_rate_4 = calcRates("./data/"+modelName.format(4)+"/output.log")
 
 final_success_rate = []
 final_failure_rate = []
 for i in range(min(len(success_rate_1),len(success_rate_2),len(success_rate_3))):
-    final_success_rate.append((success_rate_1[i] + success_rate_2[i] + success_rate_3[i] + success_rate_4[i])/4.0)
-    final_failure_rate.append((failure_rate_1[i] + failure_rate_2[i] + failure_rate_3[i] + failure_rate_4[i])/4.0)
+    final_success_rate.append((success_rate_1[i] + success_rate_2[i] + success_rate_3[i] + success_rate_4[i])/noOfSimilarModels)
+    final_failure_rate.append((failure_rate_1[i] + failure_rate_2[i] + failure_rate_3[i] + failure_rate_4[i])/noOfSimilarModels)
 
 
 episodes = range(1,len(final_success_rate)+1)
@@ -39,8 +49,12 @@ plt.plot(episodes,final_failure_rate, label='Failure rate')
 plt.xlabel("Episodes")
 plt.ylabel("Probability")
 plt.ylim([0,1])
-
 plt.legend(loc='best')
-plt.show()
+
+if saveType == "true":
+    plt.savefig("./data/"+modelName[:-3]+"_avgTrain.png")
+    print("Saved!")
+if showType == 'true':
+    plt.show()
 
 #print(success_rate)

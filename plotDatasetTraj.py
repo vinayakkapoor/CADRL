@@ -1,5 +1,17 @@
 import matplotlib.pyplot as plt
+import argparse
 
+parser = argparse.ArgumentParser("Parse output files")
+parser.add_argument('--start', type=int, default=180)
+parser.add_argument('--end', type=int, default=200)
+args = parser.parse_args()
+start = args.start
+end = args.end
+
+if start>end:
+   temp = start
+   start = end
+   end = temp
 
 def plotTraj(path):
   t, p1x,p2x,p1y,p2y = [], [], [], [], []
@@ -18,7 +30,7 @@ def plotTraj(path):
 
 
 
-for i in range(180,200):
+for i in range(start,end):
   p1x,p1y,p2x,p2y = plotTraj("./data/multi_sim/trajectoryData_v{}.txt".format(i))
   #plt.clf()
   for j in range(0,len(p1x)):

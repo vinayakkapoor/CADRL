@@ -16,6 +16,10 @@ failure_rate = []
 
 find_in_line = "train in "
 
+if path==None:
+    print('Please provide a path to plot data')
+    exit(1)
+
 if "_test" in path:
     find_in_line = "test in "
 
@@ -34,13 +38,13 @@ plt.ylabel("Probability")
 plt.ylim([0,1])
 
 plt.legend(loc='best')
-if saveType == "t":
+if saveType == "train":
     plt.savefig(path[:path.rfind('/')]+"/train.png")
     print("Saved!")
-elif saveType == "s":
+elif saveType == "switch":
     plt.savefig(path[:path.rfind('/')]+"/test_switchPos.png")
     print("Saved!")
-elif saveType == 'x':
+elif saveType == 'X':
     plt.savefig(path[:path.rfind('/')]+"/test_X.png")
     print("Saved!")
 #plt.show()
