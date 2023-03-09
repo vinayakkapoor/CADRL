@@ -5,10 +5,12 @@ import argparse
 parser = argparse.ArgumentParser("Parse output files")
 parser.add_argument('--file',type=str)
 parser.add_argument('--save', type=str)
+parser.add_argument('--show', type=str, default='true')
 args = parser.parse_args()
 
 path = args.file
 saveType = args.save
+showType = args.show
 
 success_rate = []
 failure_rate = []
@@ -47,6 +49,8 @@ elif saveType == "switch":
 elif saveType == 'X':
     plt.savefig(path[:path.rfind('/')]+"/test_X.png")
     print("Saved!")
-#plt.show()
+
+if showType=='true':
+    plt.show()
 
 #print(success_rate)
